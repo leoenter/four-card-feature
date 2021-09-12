@@ -168,6 +168,12 @@ body {
 		margin-left: 1.7rem;
 		
 	}
+	.title {
+		font-size: 1.6rem;
+	}
+	#bg-title {
+		font-size: 1.6rem;
+	}
 	
 	.introPara {
 		width: 20.00rem;
