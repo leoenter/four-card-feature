@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+:root {
+
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+
+--VeryDarkBlue: hsl(234, 12%, 34%);
+--GrayishBlue: hsl(229, 6%, 66%);
+--VeryLightGray: hsl(0, 0%, 98%);
+
+
+}
+
+body {
+	font-size: 15px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	background: var(--VeryLightGray);
+	padding-bottom: 4rem;
+
+	}
+
+/*tipography */
+
+
+.title {
+	
+	font-size: 1.45rem;
+	font-weight: 200;
+	color: var(--GrayishBlue);
+}
+
+.header {
+	
+	margin-top: 5rem;
+	margin-bottom: .7rem;
+}
+
+#bg-title {
+	
+	font-weight: 600;
+	font-size: 1.45rem;
+}
+
+.introPara {
+	
+	font-size: .95rem;
+	color: var(--GrayishBlue);
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
+.supervisorTitle,.teamTitle, .karmaTitle, .calculatorTitle {
+ 
+ font-size: 1.2rem;
+ margin-bottom: .4rem;
+
+}
+.supervisorPara, .teamPara, .calculatorPara, .karmaPara {
+	
+	font-size: .80rem;
+	color: var(--GrayishBlue);
+	
+}
+
+
+.wrapper {
+	
+	max-width: 1440px;
+	width: 80%;
+	margin: auto;
+	
+	}
+
+.supervisor,.team,.Karma, .calculator {
+ padding: 2rem;
+
+ padding-bottom: 8rem;
+ margin-bottom: 1.5rem;
+} 
+.supervisor {
+	border-top: 4px solid var(--Cyan);
+	border-top-left-radius: 2%;
+	border-top-right-radius: 2%;
+	background: url(images/icon-supervisor.svg);
+	background-repeat: no-repeat;
+	background-position: right 1.5rem bottom 1.5rem;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-size: 3.5rem;
+	background-color: white;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+}
+.team {
+	border-top: 4px solid var(--Red);
+	border-top-left-radius: 2%;
+	border-top-right-radius: 2%;
+	background: url(images/icon-team-builder.svg);
+	background-repeat: no-repeat;
+	background-position: right 1.5rem bottom 1.5rem;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-size: 3.5rem;
+	background-color: white;
+    border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+
+}
+.Karma {
+	border-top: 4px solid var(--Orange);
+	border-top-left-radius: 2%;
+	border-top-right-radius: 2%;
+	background: url(images/icon-karma.svg);
+	background-repeat: no-repeat;
+	background-position: right 1.5rem bottom 1.5rem;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-size: 3.5rem;
+	background-color: white;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+
+.calculator {
+	
+	border-top: 4px solid var(--Blue);
+	border-top-left-radius: 2%;
+	border-top-right-radius: 2%;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+	background: url(images/icon-calculator.svg);
+	background-repeat: no-repeat;
+	background-position: right 1.5rem bottom 1.5rem;
+	background-size: 3.5rem;
+	background-color: white;
+}
+
+
+@media(max-width: 375px) {
+	.header {
+		
+		text-align: center;
+	}
+}
+
+@media(min-width: 425px){
+	
+    	.wrapper {
+       
+        width: 24.00rem;
+        margin:  auto;
+       
+       }
+	
+	.header {
+	
+		text-align: center;
+		width: 20.00rem;
+		margin-left: 1.7rem;
+		
+	}
+	
+	.introPara {
+		width: 20.00rem;
+		
+		margin-left: 1.7rem;
+		
+	}
+	
+	.supervisor,.team,.Karma, .calculator {
+		width: 20.00rem;
+		
+		margin-left: 1.7rem;
+
+	}
+
+
+}
+
+   @media(min-width: 1200px) {
+   
+   .wrapper {
+   
+    width: 70.00rem;
+   	margin: auto;
+   
+  }
+   
+   .intro {
+   	
+   	width: 100%;
+   	
+   	}
+    
+    .header {
+    	
+    margin: auto;
+    padding-top: 3rem;
+     width: 50%;
+        
+    }
+
+    #bg-title {
+    
+     font-size: 2.1rem
+    
+    }
+
+   .title {
+   	
+   	font-weight: 400;
+   	
+   	font-size: 2rem;
+   
+   }
+   
+   
+   .introPara {
+   	
+   	width: 50%;
+   	margin: auto;
+   	margin-bottom: 2rem;
+   	font-size: 1rem;
+   	
+   }
+   .flex {
+   	
+   	display: flex;
+   	
+   	justify-content: space-between;
+   
+   	} 
+
+   	.supervisor,.team,.Karma, .calculator {
+   		
+   	width: 22.00rem;
+   	margin-left: 0;
+   	
+   	}
+
+   .supervisor {
+   	align-self: center;
+   	
+   }
+   .calculator {
+   	align-self: center;
+   	
+   }
+   
+
+
+   .center {
+   	
+   	display: flex;
+   	flex-direction: column;
+   
+   }
+
+
+
+
+    }
